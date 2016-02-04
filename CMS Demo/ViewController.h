@@ -1,7 +1,8 @@
 #import <UIKit/UIKit.h>
+#import <KudanAR/KudanAR.h>
+#import "CMSNetworking.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : ARCameraViewController <CMSDownloadProgress>
 
 @end
 

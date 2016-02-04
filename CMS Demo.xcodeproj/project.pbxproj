@@ -13,6 +13,15 @@
 		649EF33B1C623A1A005AD8BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649EF3391C623A1A005AD8BF /* Main.storyboard */; };
 		649EF33D1C623A1A005AD8BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649EF33C1C623A1A005AD8BF /* Assets.xcassets */; };
 		649EF3401C623A1A005AD8BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649EF33E1C623A1A005AD8BF /* LaunchScreen.storyboard */; };
+		649EF3531C623B22005AD8BF /* CMSContentManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EF34D1C623B22005AD8BF /* CMSContentManagement.m */; };
+		649EF3541C623B22005AD8BF /* CMSFileDownloadMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EF34E1C623B22005AD8BF /* CMSFileDownloadMeta.m */; };
+		649EF3551C623B22005AD8BF /* CMSLoadTrackablesFromFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EF34F1C623B22005AD8BF /* CMSLoadTrackablesFromFiles.m */; };
+		649EF3561C623B22005AD8BF /* CMSTrackable.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EF3501C623B22005AD8BF /* CMSTrackable.m */; };
+		649EF3571C623B22005AD8BF /* CMSUtilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EF3511C623B22005AD8BF /* CMSUtilityFunctions.m */; };
+		649EF3581C623B22005AD8BF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EF3521C623B22005AD8BF /* Reachability.m */; };
+		649EF35F1C623BBD005AD8BF /* KudanAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649EF35E1C623BBD005AD8BF /* KudanAR.framework */; };
+		649EF3611C623BC8005AD8BF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 649EF3601C623BC8005AD8BF /* libc++.tbd */; };
+		649EF3641C623BDA005AD8BF /* CMSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EF3631C623BDA005AD8BF /* CMSNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,22 @@
 		649EF33C1C623A1A005AD8BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		649EF33F1C623A1A005AD8BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		649EF3411C623A1A005AD8BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649EF3471C623B22005AD8BF /* CMSContentManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSContentManagement.h; sourceTree = "<group>"; };
+		649EF3481C623B22005AD8BF /* CMSFileDownloadMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSFileDownloadMeta.h; sourceTree = "<group>"; };
+		649EF3491C623B22005AD8BF /* CMSLoadTrackablesFromFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSLoadTrackablesFromFiles.h; sourceTree = "<group>"; };
+		649EF34A1C623B22005AD8BF /* CMSTrackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSTrackable.h; sourceTree = "<group>"; };
+		649EF34B1C623B22005AD8BF /* CMSUtilityFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSUtilityFunctions.h; sourceTree = "<group>"; };
+		649EF34C1C623B22005AD8BF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		649EF34D1C623B22005AD8BF /* CMSContentManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSContentManagement.m; sourceTree = "<group>"; };
+		649EF34E1C623B22005AD8BF /* CMSFileDownloadMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSFileDownloadMeta.m; sourceTree = "<group>"; };
+		649EF34F1C623B22005AD8BF /* CMSLoadTrackablesFromFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSLoadTrackablesFromFiles.m; sourceTree = "<group>"; };
+		649EF3501C623B22005AD8BF /* CMSTrackable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSTrackable.m; sourceTree = "<group>"; };
+		649EF3511C623B22005AD8BF /* CMSUtilityFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSUtilityFunctions.m; sourceTree = "<group>"; };
+		649EF3521C623B22005AD8BF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		649EF35E1C623BBD005AD8BF /* KudanAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KudanAR.framework; path = "CMS Demo/KudanAR.framework"; sourceTree = SOURCE_ROOT; };
+		649EF3601C623BC8005AD8BF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		649EF3621C623BDA005AD8BF /* CMSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSNetworking.h; sourceTree = "<group>"; };
+		649EF3631C623BDA005AD8BF /* CMSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSNetworking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +83,10 @@
 		649EF32F1C623A1A005AD8BF /* CMS Demo */ = {
 			isa = PBXGroup;
 			children = (
-				649EF3331C623A1A005AD8BF /* AppDelegate.h */,
-				649EF3341C623A1A005AD8BF /* AppDelegate.m */,
-				649EF3361C623A1A005AD8BF /* ViewController.h */,
-				649EF3371C623A1A005AD8BF /* ViewController.m */,
+				649EF3651C624244005AD8BF /* Frameworks */,
+				649EF3591C623B2F005AD8BF /* AppDelegate */,
+				649EF35D1C623B78005AD8BF /* ViewControllers */,
+				649EF35A1C623B42005AD8BF /* Classes */,
 				649EF3391C623A1A005AD8BF /* Main.storyboard */,
 				649EF33C1C623A1A005AD8BF /* Assets.xcassets */,
 				649EF33E1C623A1A005AD8BF /* LaunchScreen.storyboard */,
@@ -77,6 +102,61 @@
 				649EF3311C623A1A005AD8BF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		649EF3591C623B2F005AD8BF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				649EF3331C623A1A005AD8BF /* AppDelegate.h */,
+				649EF3341C623A1A005AD8BF /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		649EF35A1C623B42005AD8BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				649EF35B1C623B50005AD8BF /* CMS */,
+				649EF35C1C623B6B005AD8BF /* Reachability */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		649EF35B1C623B50005AD8BF /* CMS */ = {
+			isa = PBXGroup;
+			children = (
+				649EF3471C623B22005AD8BF /* CMSContentManagement.h */,
+				649EF34D1C623B22005AD8BF /* CMSContentManagement.m */,
+				649EF3481C623B22005AD8BF /* CMSFileDownloadMeta.h */,
+				649EF34E1C623B22005AD8BF /* CMSFileDownloadMeta.m */,
+				649EF3491C623B22005AD8BF /* CMSLoadTrackablesFromFiles.h */,
+				649EF34F1C623B22005AD8BF /* CMSLoadTrackablesFromFiles.m */,
+				649EF3621C623BDA005AD8BF /* CMSNetworking.h */,
+				649EF3631C623BDA005AD8BF /* CMSNetworking.m */,
+				649EF34A1C623B22005AD8BF /* CMSTrackable.h */,
+				649EF3501C623B22005AD8BF /* CMSTrackable.m */,
+				649EF34B1C623B22005AD8BF /* CMSUtilityFunctions.h */,
+				649EF3511C623B22005AD8BF /* CMSUtilityFunctions.m */,
+			);
+			name = CMS;
+			sourceTree = "<group>";
+		};
+		649EF35C1C623B6B005AD8BF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				649EF34C1C623B22005AD8BF /* Reachability.h */,
+				649EF3521C623B22005AD8BF /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		649EF35D1C623B78005AD8BF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				649EF3361C623A1A005AD8BF /* ViewController.h */,
+				649EF3371C623A1A005AD8BF /* ViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649EF3571C623B22005AD8BF /* CMSUtilityFunctions.m in Sources */,
+				649EF3641C623BDA005AD8BF /* CMSNetworking.m in Sources */,
+				649EF3531C623B22005AD8BF /* CMSContentManagement.m in Sources */,
+				649EF3551C623B22005AD8BF /* CMSLoadTrackablesFromFiles.m in Sources */,
+				649EF3561C623B22005AD8BF /* CMSTrackable.m in Sources */,
 				649EF3381C623A1A005AD8BF /* ViewController.m in Sources */,
+				649EF3541C623B22005AD8BF /* CMSFileDownloadMeta.m in Sources */,
 				649EF3351C623A1A005AD8BF /* AppDelegate.m in Sources */,
+				649EF3581C623B22005AD8BF /* Reachability.m in Sources */,
 				649EF3321C623A1A005AD8BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -263,9 +350,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/CMS Demo\"",
+				);
 				INFOPLIST_FILE = "CMS Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.kudan.CMS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.cms.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -274,9 +365,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/CMS Demo\"",
+				);
 				INFOPLIST_FILE = "CMS Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.kudan.CMS-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.cms.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

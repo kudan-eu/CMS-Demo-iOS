@@ -16,11 +16,98 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Huo-05-9e8" userLabel="Loading Splash Screen">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kudan_logo" translatesAutoresizingMaskIntoConstraints="NO" id="K0t-nG-WJL">
+                                        <rect key="frame" x="44" y="247" width="512" height="106"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yXE-eh-IDV" userLabel="Download Info View">
+                                        <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                        <subviews>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="J9d-9r-H7W">
+                                                <rect key="frame" x="120" y="30" width="360" height="2"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="DOWNLOADING DATA" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5x-ex-F9h">
+                                                <rect key="frame" x="214" y="40" width="171" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="5Jr-ru-T8A">
+                                                <rect key="frame" x="393" y="40" width="20" height="20"/>
+                                            </activityIndicatorView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="i5x-ex-F9h" firstAttribute="centerX" secondItem="yXE-eh-IDV" secondAttribute="centerX" id="4lh-9z-Tmg"/>
+                                            <constraint firstItem="i5x-ex-F9h" firstAttribute="centerY" secondItem="yXE-eh-IDV" secondAttribute="centerY" id="IIC-GJ-kR2"/>
+                                            <constraint firstAttribute="height" constant="100" id="KbE-D1-v8P"/>
+                                            <constraint firstItem="5Jr-ru-T8A" firstAttribute="leading" secondItem="i5x-ex-F9h" secondAttribute="trailing" constant="8" id="SjM-F3-Wbu"/>
+                                            <constraint firstItem="J9d-9r-H7W" firstAttribute="top" secondItem="yXE-eh-IDV" secondAttribute="top" constant="30" id="VvI-xs-Ilp"/>
+                                            <constraint firstItem="J9d-9r-H7W" firstAttribute="centerX" secondItem="yXE-eh-IDV" secondAttribute="centerX" id="e4h-8Y-Mt7"/>
+                                            <constraint firstAttribute="trailing" secondItem="J9d-9r-H7W" secondAttribute="trailing" constant="120" id="jN1-qX-G37"/>
+                                            <constraint firstItem="5Jr-ru-T8A" firstAttribute="centerY" secondItem="yXE-eh-IDV" secondAttribute="centerY" id="p2U-Bx-Sfp"/>
+                                            <constraint firstItem="J9d-9r-H7W" firstAttribute="leading" secondItem="yXE-eh-IDV" secondAttribute="leading" constant="120" id="w7V-hd-6gq"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="K0t-nG-WJL" firstAttribute="leading" secondItem="Huo-05-9e8" secondAttribute="leading" constant="44" id="6H4-C7-hig"/>
+                                    <constraint firstItem="K0t-nG-WJL" firstAttribute="centerY" secondItem="Huo-05-9e8" secondAttribute="centerY" id="6PU-Fp-uXu"/>
+                                    <constraint firstItem="K0t-nG-WJL" firstAttribute="centerX" secondItem="Huo-05-9e8" secondAttribute="centerX" id="URn-nm-Tkx"/>
+                                    <constraint firstAttribute="trailing" secondItem="yXE-eh-IDV" secondAttribute="trailing" id="VmO-V5-cks"/>
+                                    <constraint firstItem="yXE-eh-IDV" firstAttribute="leading" secondItem="Huo-05-9e8" secondAttribute="leading" id="XhK-QF-b5z"/>
+                                    <constraint firstAttribute="bottom" secondItem="yXE-eh-IDV" secondAttribute="bottom" id="joo-27-lAo"/>
+                                    <constraint firstAttribute="trailing" secondItem="K0t-nG-WJL" secondAttribute="trailing" constant="44" id="lqj-yV-Aq2"/>
+                                </constraints>
+                            </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9Dw-c9-df1">
+                                <rect key="frame" x="10" y="290.5" width="580" height="20.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="rxS-HW-EJi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Huo-05-9e8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1rA-OL-AFP"/>
+                            <constraint firstItem="9Dw-c9-df1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AvZ-yF-ycK"/>
+                            <constraint firstAttribute="trailing" secondItem="9Dw-c9-df1" secondAttribute="trailing" constant="10" id="Gve-61-HbT"/>
+                            <constraint firstAttribute="trailing" secondItem="Huo-05-9e8" secondAttribute="trailing" id="Ozm-tl-Yhu"/>
+                            <constraint firstItem="Huo-05-9e8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Pmo-US-rSC"/>
+                            <constraint firstItem="Huo-05-9e8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Qea-lj-3Hr"/>
+                            <constraint firstAttribute="bottom" secondItem="Huo-05-9e8" secondAttribute="bottom" id="R3T-aK-pdF"/>
+                            <constraint firstItem="9Dw-c9-df1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="f2Q-pu-qRc"/>
+                            <constraint firstItem="9Dw-c9-df1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mhX-c0-YLK"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Pmo-US-rSC"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="activitySpinner" destination="5Jr-ru-T8A" id="MJ6-kg-RL5"/>
+                        <outlet property="downloadInfoView" destination="yXE-eh-IDV" id="kgW-V3-NAX"/>
+                        <outlet property="downloadLabel" destination="i5x-ex-F9h" id="cxs-z8-qGl"/>
+                        <outlet property="downloadProgressView" destination="J9d-9r-H7W" id="eXR-TN-pDS"/>
+                        <outlet property="loadingSplashScreen" destination="Huo-05-9e8" id="37Z-nt-SIQ"/>
+                        <outlet property="trackableTextLabel" destination="9Dw-c9-df1" id="pu9-7T-1PU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="565" y="549"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="kudan_logo" width="512" height="106"/>
+    </resources>
 </document>
