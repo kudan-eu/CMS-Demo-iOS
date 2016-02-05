@@ -1,0 +1,40 @@
+{
+	"lastUpdated": "23-01-2016",
+	"results": [{
+		"id": 0,
+		"marker": "https://YOURSITE/CMS/Media/space.KARMarker",
+		"augmentation": "https://YOURSITE/CMS/Media/space.mp4",
+		"markerFileName": "space.KARMarker",
+		"augmentationFileName": "space.mp4",
+		"lastUpdated": "15-12-2015",
+		"augmentationType": "video",
+		"displayFade": 1.0,
+		"resetTime": 5,
+		"augmentationRotation": 90,
+		"fillMarker": 1
+	}, {
+		"id": 1,
+		"marker": "https://YOURSITE/CMS/Media/waves.KARMarker",
+		"augmentation": "https://YOURSITE/CMS/Media/waves.mp4",
+		"markerFileName": "waves.KARMarker",
+		"augmentationFileName": "waves.mp4",
+		"lastUpdated": "15-12-2015",
+		"augmentationType": "video",
+		"displayFade": 1.0,
+		"resetTime": 5,
+		"augmentationRotation": 0,
+		"fillMarker": 1
+	}, {
+		"id": 2,
+		"marker": "https://YOURSITE/CMS/Media/musicMarker.KARMarker",
+		"augmentation": "",
+		"markerFileName": "musicMarker.KARMarker",
+		"augmentationFileName": "",
+		"lastUpdated": "01-01-2016",
+		"augmentationType": "text",
+		"displayFade": 1.0,
+		"resetTime": 5,
+		"augmentationRotation": 0,
+		"fillMarker": 1
+	}]
+}
