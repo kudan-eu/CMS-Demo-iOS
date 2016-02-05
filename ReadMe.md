@@ -53,7 +53,7 @@ In order for this sample project to work you will need to:
 			"id": 2,
 			"marker": "https://YOURSITE/CMS/Media/musicMarker.KARMarker",
 			"augmentation": "",
-			"markerFileName": "",
+			"markerFileName": "musicMarker.KARMarker",
 			"augmentationFileName": "",
 			"lastUpdated": "01-01-2016",
 			"augmentationType": "text",
