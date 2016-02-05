@@ -15,9 +15,10 @@ In order for this sample project to work you will need to:
 1. Clone the repo
 2. Download the appropriate KudanAR framework from the [Kudan website](https://www.kudan.eu/download-sdk/)
 3. Put **KudanAR.framework** into the project's root directory
-4. To test the app with content from Kudan's server, open `CMSNetworking.h` and remove the comment from on line 3: `//#define KUDAN_SERVER`
-5. Alternatively you can upload the content contained within the `CMS Content` to your own server and alter the files as you wish.
-6. The app looks for `test.json` on the server as to where it should find the rest of its data. You can change this to your hearts content. Details on `test.json` are below.
+4. Upload the assets contained within the `CMS Content` to your own server and alter the assets as you wish.
+5. Open `CMSNetworking.h` and update the value of `kJSONURL` on line `6` to that of your own server.
+6. Alternatively, to test the app with content from Kudan's server, open `CMSNetworking.h` and remove the comment from on line 3: `//#define KUDAN_SERVER`
+7. The app looks for `test.json` on the server as to where it should find the rest of its data. You can change this to your hearts content. Details on `test.json` are below.
 
 ##JSON Details
 
