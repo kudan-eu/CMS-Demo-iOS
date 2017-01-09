@@ -369,7 +369,7 @@
 				);
 				INFOPLIST_FILE = "CMS Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.cms.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.ar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -384,7 +384,7 @@
 				);
 				INFOPLIST_FILE = "CMS Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.cms.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.ar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
