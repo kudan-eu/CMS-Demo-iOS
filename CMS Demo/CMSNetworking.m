@@ -55,7 +55,7 @@
 
 - (void)setupSession
 {
-    NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration backgroundSessionConfiguration:@"com.JSONAR"];
+    NSURLSessionConfiguration *sessionConfiguration = [NSURLSessionConfiguration backgroundSessionConfigurationWithIdentifier:@"com.JSONAR"];
     sessionConfiguration.HTTPMaximumConnectionsPerHost = 5;
     self.session = [NSURLSession sessionWithConfiguration:sessionConfiguration
                                                  delegate:self
